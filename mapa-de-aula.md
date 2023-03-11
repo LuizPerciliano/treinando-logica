@@ -10,3 +10,5 @@
 - assistir/praticar aula de lógica
 - se tudo ok, comitar alterações em desenvolvimento
 - aos sábados, revisar tudo e fazer o merge na main e subir para o repositório remoto
+- conferir em: https://github.com/LuizPerciliano/treinando-logica 
+
