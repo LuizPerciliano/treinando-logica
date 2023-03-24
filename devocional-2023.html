@@ -2,8 +2,7 @@
 
 <h1> Opi, Bom diaaaaaaaa, vamos de devocional para 2023 com Ernst Bach!!! </h1>
 <h2> MEU INÍCIO DE DIA - PARA PRÁTICA DIÁRIA </h2>
-<h3> De manhã, Senhor, ouves a minha voz: de manhã te apresento a minha oração e fico esperando. <br>Salmo 5.3 - De manhã ouves a minha voz; quando o sol nasce, eu faço a minha oração
-e espero a tua resposta.</h3>
+<h3> De manhã, Senhor, ouves a minha voz: de manhã te apresento a minha oração e fico esperando. Salmo 5.3</h3>
 
 <hr>
 
@@ -19,6 +18,12 @@ e espero a tua resposta.</h3>
 
 	function exibeDevocional(cabecalho,texto){
 		document.write(cabecalho,texto);
+		pulaLinha();
+		//tracaLinha();
+	}
+
+	function exibeDevocionalSimples(texto){
+		document.write(texto);
 		pulaLinha();
 		//tracaLinha();
 	}
@@ -50,8 +55,9 @@ e espero a tua resposta.</h3>
 
 	var	inicioDia3 = "A tua Palavra é hoje o meu alimento e a luz para o me caminho. <br> Mt 4.4 - Jesus respondeu: — As Escrituras Sagradas afirmam: 'O ser humano não vive só de pão, mas vive de tudo o que Deus diz.'(NTLH); \
 	<br> Sl 119.105 - A tua palavra é lâmpada para guiar os meus passos, é luz que ilumina o meu caminho. (NTLH)";
-	var	inicioDia4 = "Teu Espírito concede-me dons e ensina; ele me guia e ajuda também neste dia. <br> Rm 8.14, 26 - Pois aqueles que são guiados pelo Espírito de Deus são filhos de Deus. \
-	<br>26 - Assim também o Espírito de Deus vem nos ajudar na nossa fraqueza. Pois não sabemos como devemos orar, mas o Espírito de Deus, com gemidos que não podem ser explicados por palavras, pede a Deus em nosso favor.  \
+	var	inicioDia4 = "Teu Espírito concede-me dons e ensina; ele me guia e ajuda também neste dia. <br>\
+	Rm 8.14, 26 - Pois aqueles que são guiados pelo Espírito de Deus são filhos de Deus. \
+	26 - Assim também o Espírito de Deus vem nos ajudar na nossa fraqueza. Pois não sabemos como devemos orar, mas o Espírito de Deus, com gemidos que não podem ser explicados por palavras, pede a Deus em nosso favor.  \
 	<br> Jo 16.13 - Porém, quando o Espírito da verdade vier, ele ensinará toda a verdade a vocês. O Espírito não falará por si mesmo, mas dirá tudo o que ouviu e anunciará a vocês as coisas que estão para acontecer.";
 	var	inicioDia5 = "O teu sangue precioso me libertou. Ele me purifica e cura hoje. <br> 1Jo 1.7 - Porém, se vivemos na luz, como Deus está na luz, então estamos unidos uns com os outros, e o sangue de Jesus, \
 	o seu Filho, nos limpa de todo pecado. <br> 1Pe 1.18-19 - Pois vocês sabem o preço que foi pago para livrá-los da vida inútil que herdaram dos seus antepassados. \
@@ -105,6 +111,11 @@ e espero a tua resposta.</h3>
 	<br> - Além da Bíblia, eles têm outras revelações e mensagens.\
 	<br> - Além deles, no entanto, ninguém tem razão.\
 	<br> Gl 1.6 - Estou muito admirado com vocês, pois estão abandonando tão depressa aquele que os chamou por meio da graça de Cristo e estão aceitando outro evangelho.";
+
+	var conselho10 = "Espere conscientemente pelo Senhor Jesus!\
+	<br> Jesus está voltando ...\
+	<br> Ap 22.17,20 - O Espírito e a Noiva dizem: — Venha! Aquele que ouve isso diga também: — Venha! Aquele que tem sede venha. E quem quiser receba de graça da água da vida. \
+	20 - Aquele que dá testemunho de tudo isso diz: — Certamente venho logo! Amém! Vem, Senhor Jesus!";
 	
 	
 	/****************************************************************/
@@ -113,8 +124,23 @@ e espero a tua resposta.</h3>
 	/* // template
 	exibeDevocional(cabecalho,  inicioDia3)
 	document.write("<p><b>Obs.: Hoje são 23/03/2023, conselho do dia.</b>")
+
+	document.write("<p><b>Meditação do dia 24/03/2023.</b><p>")
+	exibeDevocionalSimples(inicioDia4)
+	document.write("<p> .")
+	tracaLinha();
+
 	*/
-	
+
+	document.write("<p><b>Meditação do dia 24/03/2023.</b><p>")
+	exibeDevocionalSimples(inicioDia4)
+	document.write("<p>Sim Ó Deus, faça se cumprir por misericórdia esta palavra de hoje em nossas vidas.")
+	tracaLinha();
+
+	exibeDevocional(cabecalho,  conselho10)
+	document.write("<p><b>Obs.: Hoje são 23/03/2023, conselho do dia.</b> Jesus é bom, continua sendo o maior e, sempre O será!!!")
+	tracaLinha();
+
 	exibeDevocional(cabecalho, conselho9);
 	document.write("<p><b>Obs.: Hoje são 22/03/2023, conselho do dia.</b> É triste a situação do abandono do evangelho, da fé em Cristo. \
 		Pior ainda, é quando alguns até se voltam contra aquilo que aparentemente diziam amarem. \
