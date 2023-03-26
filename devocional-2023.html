@@ -28,10 +28,32 @@
 		//tracaLinha();
 	}
 
+	function exibeTodosInicioDia(){
+		document.write(inicioDia1);
+		pulaLinha();
+		tracaLinha();
+
+		document.write(inicioDia2);
+		pulaLinha();
+		tracaLinha();
+
+		document.write(inicioDia6);
+		pulaLinha();
+		tracaLinha();
+	}
+
+	function mostra(frase){
+		document.write(frase);
+		pulaLinha();
+		tracaLinha();
+
+	}
+
 	// variáveis de início de dia
 	var cabecalho = "<h3> Conforme Ernst Bach, o início do dia </h3>";
 	
-	var inicioDia1 = "Levanto-me no nome de Jesus. Minha 'velha natureza' foi crucificada com Cristo e enterrada. Agora eu vivo pelo Jesus ressurreto. <p> \
+	var inicioDia1 = "<b>Dia 1:</b>\
+	<p>Levanto-me no nome de Jesus. Minha 'velha natureza' foi crucificada com Cristo e enterrada. Agora eu vivo pelo Jesus ressurreto. <p> \
 	Rm 6.3-11 - Com certeza vocês sabem que, quando fomos batizados para ficarmos unidos com Cristo Jesus, fomos batizados para ficarmos unidos também com a sua morte. \
 	4 Assim, quando fomos batizados, fomos sepultados com ele por termos morrido junto com ele. E isso para que, assim como Cristo foi ressuscitado pelo poder glorioso do Pai, \
 	assim também nós vivamos uma vida nova. 'Cl 2.12'\
@@ -48,7 +70,8 @@
 	5 Portanto, matem os desejos deste mundo que agem em vocês, isto é, a imoralidade sexual, a indecência, as paixões más, os maus desejos e a cobiça, porque a cobiça é um tipo de idolatria.\
 	6 Pois é por causa dessas coisas que o castigo de Deus cairá sobre os que não lhe obedecem. 7 Antigamente a vida de vocês era dominada por esses desejos, e vocês viviam de acordo com eles.";
 
-	var inicioDia2 = "Em ti creio, Senhor Jesus. Eu sou teu e a ti quero servir de coração neste dia.\
+	var inicioDia2 = "<b>Dia 2:</b>\
+	Em ti creio, Senhor Jesus. Eu sou teu e a ti quero servir de coração neste dia.\
 	<p>\
 	Is 43.1-2 - Mas agora, povo de Israel, o Senhor Deus, que o criou, diz: “Não tenha medo, pois eu o salvarei; eu o chamei pelo seu nome, e você é meu. 2 Quando você atravessar águas profundas, \
 	eu estarei ao seu lado, e você não se afogará. Quando passar pelo meio do fogo, as chamas não o queimarão.";
@@ -62,7 +85,9 @@
 	var	inicioDia5 = "O teu sangue precioso me libertou. Ele me purifica e cura hoje. <br> 1Jo 1.7 - Porém, se vivemos na luz, como Deus está na luz, então estamos unidos uns com os outros, e o sangue de Jesus, \
 	o seu Filho, nos limpa de todo pecado. <br> 1Pe 1.18-19 - Pois vocês sabem o preço que foi pago para livrá-los da vida inútil que herdaram dos seus antepassados. \
 	 Esse preço não foi uma coisa que perde o seu valor como o ouro ou a prata. 19 Vocês foram libertados pelo precioso sangue de Cristo, que era como um cordeiro sem defeito nem mancha.";
-	var inicioDia6 = "Tu mesmo, 'Cristo em mim', és hoje a minha vida e minha vitória sobre as 'coisas antigas' dentro de mim e ao meu redor. \
+	
+	 var inicioDia6 = "<b>Dia 6:</b>\
+	 Tu mesmo, 'Cristo em mim', és hoje a minha vida e minha vitória sobre as 'coisas antigas' dentro de mim e ao meu redor. \
 	<br> Colossenses 2.13 Antigamente vocês estavam espiritualmente mortos por causa dos seus pecados e porque eram não judeus e não tinham a lei. \
 	Mas agora Deus os ressuscitou junto com Cristo. Deus perdoou todos os nossos pecados (Ef 2.1-5) <br> 1Jo 4.4 - Meus filhinhos (4.4 Ver 1Jo 2.1, nota.), vocês são de Deus e têm derrotado os falsos profetas. \
 	Porque o Espírito que está em vocês é mais forte do que o espírito que está naqueles que pertencem ao mundo. <br> 1Jo 5.4-5 - porque todo filho de Deus pode vencer o mundo. \
@@ -86,6 +111,10 @@
 
 	var inicioDia10 = "Do trono vitorioso do Ressurreto, quero hoje agradecer por tudo, tudo, tudo.<br>	Ef 5.20 - Em nome do nosso Senhor Jesus Cristo, agradeçam sempre todas as coisas a Deus, o Pai.";
 
+	exibeTodosInicioDia(inicioDia1);
+
+	mostra(inicioDia2);
+	
 	// variáveis dos dez conselhos para você
 	var conselho1 = "Deposite sua esperança conscientemente na graça de Deus em Jesus! <br>\
 		Isso o protege do legalismo.<br>\
