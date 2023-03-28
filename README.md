@@ -23,5 +23,4 @@
  ## Tasks
 - segunda-feira: início dos trabalhos na branch desenvolvimento
 - analisar estes sites para subir um site de devocional: https://www.instagram.com/p/CqF7JCXM_rr/?igshid=MDJmNzVkMjY=
-- A2 exercios - 9 (7 c e 2 e)
 - ver como exibir a página html legal no GitHub
